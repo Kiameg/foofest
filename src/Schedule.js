@@ -9,7 +9,7 @@ class Schedule {
   constructor(fest) {
     //TODO: ? flatten array and add stage/day?
     this.fest = fest;
-    this.scenes = ["Midgard", "Vanaheim", "Jotunheim"];
+    this.scenes = ["Pink Scene", "Yellow Scene", "Blue Scene"];
     this.days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
     this.slots = {};
     this.scenes.forEach((scene) => {
